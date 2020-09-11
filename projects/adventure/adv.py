@@ -43,7 +43,7 @@ reversal_path = []
 visited = set()
 
 # While the amount of room we've visited is less than the total amount of rooms
-while len(visited) < len(room_graph):
+while len(visited) < 500:
 
     # Initializing, we'll use this variable to dictate where we WANT to travel next
     next_move = None
